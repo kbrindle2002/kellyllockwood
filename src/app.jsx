@@ -1,7 +1,10 @@
 export default function App() {
   return (
-    <div className="p-10 text-2xl">
-      Hello from Kelly L. Lockwood's Resume Site!
-    </div>
+    <main className="p-8 text-center text-2xl">
+      <h1>Welcome to Kelly L. Lockwood's Resume Site</h1>
+      <p className="mt-4 text-lg">
+        This is a live React + Tailwind site deployed on Azure.
+      </p>
+    </main>
   );
 }
